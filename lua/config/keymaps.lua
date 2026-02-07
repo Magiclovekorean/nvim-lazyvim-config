@@ -3,3 +3,4 @@
 
 -- Surroud with "" the selected text
 vim.keymap.set("x", '"', 'c"<ESC>pa"<ESC>')
+vim.keymap.set("x", "``", "c`<ESC>pa`<ESC>")
